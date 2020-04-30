@@ -1,0 +1,1 @@
+No ex diz que a parte de remover os comentários vai ser resolvida no próximo exercício, mas não temos guião disso. Tentei fazer na mesma e , como está, está a funcionar, incluindo o botão de apagar todos.
