@@ -1,0 +1,2 @@
+Neste exercício ainda não estão feitos os scripts para adicionar ou remover comentários na base de dados, o código que está nessas páginas vem dos exercícios anteriores.
+De notar também que , sem ler o enunciado do EX2 de BD comecei a fazer os details dos mentores com base de dados... mas não está corretamente feito. Foi à martelada só para estar a funcionar enqaunto não saía o pdf do ex 2
