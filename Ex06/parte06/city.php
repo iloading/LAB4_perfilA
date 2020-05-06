@@ -12,14 +12,11 @@
     <?php
     require_once "data.php";
     $escolha = $_POST['id'];
-    foreach ($cities as $key => $value) {
-        if ($escolha == $key) {
-            echo "<h1>". $value['name']." (". intval($key).")</h1>";
-            echo "<p>". $value['info']."</p>";
-            echo "<hr>";
-            echo '<a href="index.php">voltar</a>';
-        }
-    }
+
+    echo "<h1>" . $cities[$escolha]['name'] . " (" . $escolha . ")</h1>";
+    echo "<p>". $cities[$escolha]['info']."</p>";
+    echo "<hr>";
+    echo '<a href="index.php">voltar</a>';
     ?>
     
     

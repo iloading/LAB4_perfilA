@@ -34,7 +34,8 @@ $perguntas = array(
             "Nauru e China",
             "Mónaco e Canadá",
             "Malta e Estados Unidos",
-            "São Marino e Índia", "Paul Cézanne"),
+            "São Marino e Índia", 
+            "Paul Cézanne"),
         "resposta_correcta" => 1),
     array(
         "pergunta" => "Quem pintou \"Guernica\"?",

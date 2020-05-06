@@ -18,7 +18,7 @@
         <select name="id">
             <?php
             foreach ($cities as $key => $value) {
-                echo "<option value='" . intval($key) . "'>" . $value['name'] . "</option name=>";
+                echo "<option value='" . $key . "'>" . $value['name'] . "</option>";
             }
             ?>
 

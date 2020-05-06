@@ -14,7 +14,7 @@
     require_once "perguntas.php";
 
     $a = 0; //precisam de ser variáveis globais para serem usadas desta maneira
-    $i = 0;
+    // $i = 0;
     for ($i = 0; $i < count($perguntas); $i++) {
         echo "<div>";
         echo "<h3>" . $perguntas[$i] . "</h3>";

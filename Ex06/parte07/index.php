@@ -13,13 +13,12 @@
     <?php
     require_once "data.php";
     echo "<ul>";
-    for ($i = 0; $i <count($clubes); $i++) {
-        foreach ($clubes[$i] as $key => $value) {
-            if ($key == "clube") {
-                echo "<li><a href='jogadores.php?clube=". $value."'>". $value."</a></li>";
-            };
-        }
+
+    foreach ($clubes as $key => $value) {
+        $Nomeclube = $value['clube'];
+        echo "<li><a href='jogadores.php?clube=" . $Nomeclube . "'>" . $Nomeclube . "</a></li>";
     }
+
     echo "</ul>";
     ?>
 
